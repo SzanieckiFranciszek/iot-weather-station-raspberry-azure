@@ -9,7 +9,7 @@ function MessageSender(option) {
         deviceId: '[Unknown device] node',
         temperatureAlert: 30
     }, option);
-    this.sensor = option.simulatedData ? new SimulatedSensor() : new Dht11Sensor(option.i2cOption);
+    this.sensor = option.simulatedData ? new SimulatedSensor() : new Dht11Sensor(option);
     this.deviceId = option.deviceId;
     this.temperatureAlert = option.temperatureAlert
     this.sensor.init(() => {

@@ -1,0 +1,12 @@
+{
+  "simulatedData": true,
+  "interval": 10000,
+  "deviceId": "Raspberry Pi 4",
+  "LEDPinGPIO": 24,
+  "SensorPinGpio": 4,
+  "messageMax": 256,
+  "credentialPath": "~/.iot-hub",
+  "temperatureAlert": 19,
+  "transport": "mqtt",
+  "iotEdgeRootCertFilePath": null
+}

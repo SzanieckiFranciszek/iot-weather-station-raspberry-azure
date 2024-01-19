@@ -5,7 +5,7 @@
   "LEDPinGPIO": 24,
   "SensorPinGpio": 4,
   "messageMax": 256,
-  "credentialPath": "~/.iot-hub",
+  "credentialPath": "~/.IotRaspberryPiApp",
   "temperatureAlert": 19,
   "transport": "mqtt",
   "iotEdgeRootCertFilePath": null
